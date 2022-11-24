@@ -14,6 +14,7 @@ export class NewApiServiceService {
   techUrl = "https://newsapi.org/v2/top-headlines?country=us&category=technology&apiKey=725de87f44e548bcb786ff15991612bf"
 
   businessUrl = "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=725de87f44e548bcb786ff15991612bf"
+  
   topHeading(): Observable<any> {
     return this.http.get(this.newsUrl)
   }
