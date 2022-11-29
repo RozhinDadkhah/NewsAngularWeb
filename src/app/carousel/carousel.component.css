@@ -1,7 +1,18 @@
-.carousel{
-    margin-top: 5%;
-}
-
 .d-block {
     height: 400px;
+}
+
+img {
+    min-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.carousel-indicators button {
+    background-color: black;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #000;
 }
